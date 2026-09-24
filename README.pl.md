@@ -23,12 +23,12 @@ Paczka zawiera silnik obliczeń. Do używania wtyczki wystarczy VS Code 1.90 lub
 
 | System / architektura VS Code | Paczka |
 |---|---|
-| Linux x64 | [valuescope-iac-0.0.12-linux-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/tags/v0.0.12/downloads/v0.0.12/valuescope-iac-0.0.12-linux-x64.vsix) |
-| Windows x64 | [valuescope-iac-0.0.12-win32-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/tags/v0.0.12/downloads/v0.0.12/valuescope-iac-0.0.12-win32-x64.vsix) |
-| macOS Apple Silicon (ARM64) | [valuescope-iac-0.0.12-darwin-arm64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/tags/v0.0.12/downloads/v0.0.12/valuescope-iac-0.0.12-darwin-arm64.vsix) |
-| macOS Intel (x64) | [valuescope-iac-0.0.12-darwin-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/tags/v0.0.12/downloads/v0.0.12/valuescope-iac-0.0.12-darwin-x64.vsix) |
+| Linux x64 | [valuescope-iac-0.0.12-linux-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.12/valuescope-iac-0.0.12-linux-x64.vsix) |
+| Windows x64 | [valuescope-iac-0.0.12-win32-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.12/valuescope-iac-0.0.12-win32-x64.vsix) |
+| macOS Apple Silicon (ARM64) | [valuescope-iac-0.0.12-darwin-arm64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.12/valuescope-iac-0.0.12-darwin-arm64.vsix) |
+| macOS Intel (x64) | [valuescope-iac-0.0.12-darwin-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.12/valuescope-iac-0.0.12-darwin-x64.vsix) |
 
-Dla wszystkich czterech paczek dostępne są [sumy SHA-256](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/downloads/v0.0.12/SHA256SUMS.txt). Wersja dla macOS wymaga systemu 13 lub nowszego.
+Dla wszystkich czterech paczek dostępne są [sumy SHA-256](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.12/SHA256SUMS.txt). Wersja dla macOS wymaga systemu 13 lub nowszego.
 
 Wszystkie cztery paczki zawierają poprawkę podglądu deklaracji zmiennych. Wersja 0.0.12 przeszła testy integracyjne VS Code na Linuksie. Paczki Windows i macOS skompilowano na innym systemie i sprawdzono ich zawartość; tego wydania nie uruchamiano na tych platformach.
 
@@ -38,11 +38,11 @@ Wszystkie cztery paczki zawierają poprawkę podglądu deklaracji zmiennych. Wer
 
 Oba filmy prowadzą od najprostszych przykładów do bardziej złożonych konfiguracji Terraform: od zmiennych i locals, przez funkcje na kolekcjach i instancje zasobów, do outputów modułu. Kółka wskazują kliknięcia, a ramka wyróżnia wynik. Każde nagranie trwa około siedmiu minut, ma podpisy i nie zawiera lektora.
 
-[![Pokaz po polsku](https://raw.githubusercontent.com/bryn1u/live-values-results-for-terraform/main/media/thumbnail-pl.png)](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/demo-pl-1080p.mp4)
+https://github.com/user-attachments/assets/b6d40e2f-8e48-423e-b10a-d1ca584078c4
 
-[Obejrzyj po polsku](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/demo-pl-1080p.mp4) · [Opis filmu po polsku](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/demo-video.pl.md)
+[Obejrzyj po angielsku](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/demo-video.en.md) · [Opis filmu po polsku](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/demo-video.pl.md)
 
-[Obejrzyj po angielsku](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/demo-en-1080p.mp4) · [Opis filmu po angielsku](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/demo-video.en.md)
+[Pobierz oryginalny MP4 po polsku](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/demo-pl-1080p.mp4) · [Pobierz oryginalny MP4 po angielsku](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/demo-en-1080p.mp4)
 
 Nagrania pokazują wersję 0.0.11. Paczki wymienione wyżej zawierają wersję 0.0.12.
 

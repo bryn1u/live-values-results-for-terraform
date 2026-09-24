@@ -23,12 +23,12 @@ The package includes the calculation engine. Using it requires VS Code 1.90 or l
 
 | System / VS Code architecture | Package |
 |---|---|
-| Linux x64 | [valuescope-iac-0.0.12-linux-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/tags/v0.0.12/downloads/v0.0.12/valuescope-iac-0.0.12-linux-x64.vsix) |
-| Windows x64 | [valuescope-iac-0.0.12-win32-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/tags/v0.0.12/downloads/v0.0.12/valuescope-iac-0.0.12-win32-x64.vsix) |
-| macOS Apple Silicon (ARM64) | [valuescope-iac-0.0.12-darwin-arm64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/tags/v0.0.12/downloads/v0.0.12/valuescope-iac-0.0.12-darwin-arm64.vsix) |
-| macOS Intel (x64) | [valuescope-iac-0.0.12-darwin-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/tags/v0.0.12/downloads/v0.0.12/valuescope-iac-0.0.12-darwin-x64.vsix) |
+| Linux x64 | [valuescope-iac-0.0.12-linux-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.12/valuescope-iac-0.0.12-linux-x64.vsix) |
+| Windows x64 | [valuescope-iac-0.0.12-win32-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.12/valuescope-iac-0.0.12-win32-x64.vsix) |
+| macOS Apple Silicon (ARM64) | [valuescope-iac-0.0.12-darwin-arm64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.12/valuescope-iac-0.0.12-darwin-arm64.vsix) |
+| macOS Intel (x64) | [valuescope-iac-0.0.12-darwin-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.12/valuescope-iac-0.0.12-darwin-x64.vsix) |
 
-[SHA-256 checksums](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/downloads/v0.0.12/SHA256SUMS.txt) are available for all four packages. macOS requires version 13 or later.
+[SHA-256 checksums](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.12/SHA256SUMS.txt) are available for all four packages. macOS requires version 13 or later.
 
 All four packages include the variable declaration preview fix. Version 0.0.12 passed VS Code integration tests on Linux. Windows and macOS packages are cross-compiled with archive checks; this release has not been run on those systems.
 
@@ -38,11 +38,11 @@ All four packages include the variable declaration preview fix. Version 0.0.12 p
 
 Both walkthroughs go from the simplest examples to more complex Terraform configurations: variables and locals, collection functions, resource instances, then module outputs. Click markers show where to look, and a border highlights the result. Each recording is about seven minutes long, with captions and no voice-over.
 
-[![English walkthrough](https://raw.githubusercontent.com/bryn1u/live-values-results-for-terraform/main/media/thumbnail-en.png)](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/demo-en-1080p.mp4)
+https://github.com/user-attachments/assets/053890a4-5486-4252-838f-b23e8b3d6fce
 
-[Watch in English](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/demo-en-1080p.mp4) · [English video description](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/demo-video.en.md)
+[Watch in Polish](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/demo-video.pl.md) · [English video description](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/demo-video.en.md)
 
-[Watch in Polish](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/demo-pl-1080p.mp4) · [Polish video description](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/demo-video.pl.md)
+[Download the original English MP4](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/demo-en-1080p.mp4) · [Download the original Polish MP4](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/demo-pl-1080p.mp4)
 
 The recordings show version 0.0.11. The packages above contain version 0.0.12.
 

@@ -10,4 +10,6 @@ To rzeczywiste nagranie Live Values & Results for Terraform 0.0.11 w VS Code na 
 
 Język interfejsu i podpisów: polski. Film bez lektora. Dostępna jest również osobna wersja angielska.
 
-[Obejrzyj film](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/demo-pl-1080p.mp4)
+https://github.com/user-attachments/assets/b6d40e2f-8e48-423e-b10a-d1ca584078c4
+
+[Pobierz oryginalny MP4 w 1080p](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/demo-pl-1080p.mp4).

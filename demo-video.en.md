@@ -10,4 +10,6 @@ This is a recording of Live Values & Results for Terraform 0.0.11 running in VS 
 
 The interface and captions are in English. There is no voice-over. A separate Polish version is also available.
 
-[Watch the video](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/demo-en-1080p.mp4)
+https://github.com/user-attachments/assets/053890a4-5486-4252-838f-b23e8b3d6fce
+
+[Download the original 1080p MP4](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/demo-en-1080p.mp4).
