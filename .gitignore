@@ -26,6 +26,3 @@
 !/downloads/v0.0.12/valuescope-iac-0.0.12-darwin-arm64.vsix
 !/downloads/v0.0.12/valuescope-iac-0.0.12-darwin-x64.vsix
 !/downloads/v0.0.12/SHA256SUMS.txt
-!/.github/
-!/.github/workflows/
-!/.github/workflows/release.yml
