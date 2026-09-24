@@ -1,0 +1,62 @@
+name: Publish release
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/release.yml]
+
+permissions: {}
+
+concurrency:
+  group: publish-release-0.0.12
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    env:
+      RELEASE_TAG: v0.0.12
+      RELEASE_COMMIT: 78b8a0287a8df4ab2f51506ced657ad78b9161c8
+    steps:
+      - name: Fetch and verify the published packages
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --depth 1 --branch "$RELEASE_TAG" "https://github.com/$GITHUB_REPOSITORY.git" release-files
+          test "$(git -C release-files rev-parse HEAD)" = "$RELEASE_COMMIT"
+          cd "release-files/downloads/$RELEASE_TAG"
+          sha256sum --check SHA256SUMS.txt
+          test "$(find . -maxdepth 1 -name '*.vsix' | wc -l)" -eq 4
+      - name: Publish packages and checksums
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          if gh release view "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "The release already exists. No assets were changed."
+            exit 0
+          fi
+          cat > release-notes.md <<'NOTES'
+          Preview Terraform values while editing in VS Code. This release includes packages for Windows x64, Linux x64, macOS Apple Silicon and macOS Intel.
+
+          Download the VSIX for your system from Assets below. In VS Code, run **Extensions: Install from VSIX…**, select the file and reload the window. The calculation engine is included. VS Code 1.90 or later is required; macOS packages require macOS 13 or later.
+
+          See the [English guide](https://github.com/bryn1u/live-values-results-for-terraform#readme) or [Polish guide](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/README.pl.md) for examples, demo videos and Linux inotify troubleshooting.
+
+          SHA256SUMS.txt contains checksums for all four packages. VS Code integration tests passed on Linux. Windows and macOS packages were cross-compiled and their archives checked; this release has not been run on those systems.
+
+          Official releases are free to use for personal and commercial work under the [product license](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/LICENSE.txt). Application sources remain private; third-party components retain their own licenses.
+          NOTES
+          gh release create "$RELEASE_TAG" \
+            --repo "$GITHUB_REPOSITORY" \
+            --verify-tag \
+            --title 'Live Values & Results for Terraform 0.0.12' \
+            --notes-file release-notes.md \
+            --latest \
+            release-files/downloads/"$RELEASE_TAG"/*.vsix \
+            release-files/downloads/"$RELEASE_TAG"/SHA256SUMS.txt
