@@ -1,0 +1,20 @@
+Live Values & Results for Terraform — third-party source availability
+
+The engine includes unmodified HashiCorp HCL v2.24.0 under MPL-2.0.
+Its complete Go module source archive is included in this VSIX at:
+  third-party/hcl-v2.24.0-source.zip
+SHA-256: 53fd4e96ac9c190e192759daf49b63397865214d337ab5f6dbf6e68c1b0f4810
+Go module checksum: h1:2QJdZ454DSsYGoaE6QheQZjtKZSUs9Nh2izTWiwQxvE=
+
+A VSIX is a ZIP archive. Extract that file, then extract the nested source
+archive to obtain HCL's source, LICENSE, module files and tests. You may use,
+modify and redistribute that covered source under MPL-2.0. The product
+license does not restrict these rights.
+
+Upstream source: https://github.com/hashicorp/hcl/tree/v2.24.0
+License: https://www.mozilla.org/en-US/MPL/2.0/
+
+No HCL source files are modified by this project. HCL try/can behavior is
+called through its public ext/tryfunc API. The original application files
+are separate and covered by LICENSE.txt. See THIRD_PARTY_NOTICES.txt for
+the licenses of the other included components.

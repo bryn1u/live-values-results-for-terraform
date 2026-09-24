@@ -1,0 +1,10 @@
+{
+  "module": "github.com/hashicorp/hcl/v2",
+  "version": "v2.24.0",
+  "license": "MPL-2.0",
+  "modified": false,
+  "archive": "hcl-v2.24.0-source.zip",
+  "sha256": "53fd4e96ac9c190e192759daf49b63397865214d337ab5f6dbf6e68c1b0f4810",
+  "moduleSum": "h1:2QJdZ454DSsYGoaE6QheQZjtKZSUs9Nh2izTWiwQxvE=",
+  "upstream": "https://github.com/hashicorp/hcl/tree/v2.24.0"
+}

@@ -1,0 +1,55 @@
+Live Values & Results for Terraform — Product License
+SPDX-License-Identifier: LicenseRef-Live-Values-Results-Proprietary
+Version 1, 24 September 2026
+Copyright (c) 2026 Michal 'bryn1u' Bryniarski. All rights reserved.
+
+1. Scope
+This license covers the original application code and accompanying materials
+of Live Values & Results for Terraform, beginning with version 0.0.12. It does
+not replace the separate licenses of third-party components, or change rights
+already granted for copies of earlier releases under their original licenses.
+
+2. Permission to use
+The copyright holder grants you a non-exclusive, worldwide, royalty-free
+license to install and use official, unmodified releases of the application
+for personal, educational and commercial work. You may make backup copies and
+copies needed to install it on devices used by you or within your organization.
+You may use and modify the Terraform examples included in the documentation
+in your own configurations. No purchase or source-code disclosure is required
+for these permitted uses.
+
+3. Restrictions on the original application
+Except as permitted in section 2, by a separate written agreement with the
+copyright holder, or by applicable mandatory law, you may not modify, create
+derivative works of, redistribute, sublicense, sell, rent or repackage the
+original application or its code. You may not reverse engineer, decompile or
+disassemble the original application except to the extent mandatory law
+permits those activities. Preserve copyright and license notices.
+
+4. Third-party components and mandatory rights
+Third-party components remain governed by their own licenses. Those licenses
+take precedence for the components they cover, including rights to obtain,
+use, modify and redistribute source code under the Mozilla Public License 2.0.
+No restriction in this product license limits those rights. Consult
+THIRD_PARTY_NOTICES.txt and SOURCE_AVAILABILITY.txt in the extension package.
+Nothing in this license excludes rights or remedies that cannot lawfully be
+excluded, including applicable consumer rights and interoperability exceptions.
+
+5. Ownership and source availability
+The copyright holder retains the rights they hold in the original application.
+No ownership transfer or trademark permission is granted. The original
+application is distributed in executable form; this license grants no right
+to obtain its private development sources. Source availability for covered
+third-party components is described separately in SOURCE_AVAILABILITY.txt.
+
+6. Warranty and liability
+To the extent permitted by applicable law, the application is provided
+"as is", without warranties of any kind, including merchantability, fitness
+for a particular purpose or non-infringement. To that same extent, the
+copyright holder is not liable for damages arising from use of the application.
+This section is subject to section 4 and does not exclude non-excludable liability.
+
+7. Contact and other permissions
+For permissions beyond this license, contact Michal 'bryn1u' Bryniarski at
+michal.bryniarski@gmail.com. Distribution of a later release under different
+terms does not withdraw permissions validly granted for an earlier release.
