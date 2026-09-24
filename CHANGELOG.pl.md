@@ -2,6 +2,13 @@
 
 [Instrukcja](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/README.pl.md) · [English](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/CHANGELOG.md)
 
+## 0.0.16 — 24 września 2026
+
+- Przeniesiono oba odtwarzacze pod wprowadzenie, przed instrukcję instalacji.
+- Dodano zachętę do obejrzenia całego filmu: dalsza część pokazuje bardziej złożone przykłady z instancjami zasobów i outputami modułów.
+
+Wydanie zawiera nową nazwę Terraform Live Values & Results i ikonę. Identyfikator rozszerzenia oraz sposób obliczania wyników pozostają bez zmian.
+
 ## 0.0.15 — 24 września 2026
 
 - Dodano odtwarzacze filmów po angielsku i po polsku bezpośrednio do opisu rozszerzenia, z przyciskami odtwarzania i miniaturami.

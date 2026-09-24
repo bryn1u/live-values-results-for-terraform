@@ -2,6 +2,13 @@
 
 [User guide](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/README.md) · [Polski](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/CHANGELOG.pl.md)
 
+## 0.0.16 — 24 September 2026
+
+- Moved both video players below the introduction so they appear before installation instructions.
+- Added a note to watch the full walkthrough for the later, more complex examples with resource instances and module outputs.
+
+Includes the new Terraform Live Values & Results name and icon. The extension ID and calculation behavior are unchanged.
+
 ## 0.0.15 — 24 September 2026
 
 - Embedded the English and Polish walkthroughs directly in the extension description, with playback controls and preview images.

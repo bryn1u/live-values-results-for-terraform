@@ -8,9 +8,29 @@ Sprawdź, jakie wartości daje Twój kod Terraform, bezpośrednio podczas pisani
 
 Możesz sprawdzać zmienne, locals, wywołania funkcji, przekształcenia kolekcji, outputy lokalnych modułów i argumenty zasobów. Wtyczka oblicza je na podstawie kodu oraz wybranych danych wejściowych. Pozwala sprawdzić filtr `for`, prześledzić wartość przez moduły albo obejrzeć argumenty instancji `for_each` bez dopisywania pomocniczego outputu i uruchamiania planu.
 
-Bieżąca wersja: **0.0.15**. Identyfikator rozszerzenia to `bryn1u.valuescope-iac`, a ustawienia mają prefiks `valuescope.*`.
+## Filmy pokazujące działanie
 
-Wcześniejsza nazwa to **Live Values & Results for Terraform**. Wersja 0.0.15 zmienia nazwę i ikonę; identyfikator rozszerzenia, ustawienia i zapisane wybory pozostają takie same.
+Obejrzyj cały film: zaczynamy od prostych wartości, a w dalszej części pokazujemy bardziej złożone przykłady z funkcjami na kolekcjach, instancjami `for_each`, argumentami zasobów i outputami modułów.
+
+Kółka wskazują kliknięcia, a ramka wyróżnia wynik. Każde nagranie trwa około siedmiu minut, ma podpisy i nie zawiera lektora.
+
+### Polski
+
+https://github.com/user-attachments/assets/b6d40e2f-8e48-423e-b10a-d1ca584078c4
+
+### English
+
+https://github.com/user-attachments/assets/053890a4-5486-4252-838f-b23e8b3d6fce
+
+[Obejrzyj po angielsku](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/demo-video.en.md) · [Opis filmu po polsku](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/demo-video.pl.md)
+
+[Pobierz oryginalny MP4 po polsku](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/demo-pl-1080p.mp4) · [Pobierz oryginalny MP4 po angielsku](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/demo-en-1080p.mp4)
+
+Nagrania pokazują wersję 0.0.11 pod poprzednią nazwą Live Values & Results for Terraform. To wydanie ma numer 0.0.16.
+
+Bieżąca wersja: **0.0.16**. Identyfikator rozszerzenia to `bryn1u.valuescope-iac`, a ustawienia mają prefiks `valuescope.*`.
+
+Wcześniejsza nazwa to **Live Values & Results for Terraform**. Wersja 0.0.16 zmienia nazwę i ikonę; identyfikator rozszerzenia, ustawienia i zapisane wybory pozostają takie same.
 
 Autor: **Michal 'bryn1u' Bryniarski** · [michal.bryniarski@gmail.com](mailto:michal.bryniarski@gmail.com).
 
@@ -29,36 +49,18 @@ Paczka zawiera silnik obliczeń. Do używania wtyczki wystarczy VS Code 1.90 lub
 
 | System / architektura VS Code | Paczka |
 |---|---|
-| Linux x64 | [valuescope-iac-0.0.15-linux-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.15/valuescope-iac-0.0.15-linux-x64.vsix) |
-| Windows x64 | [valuescope-iac-0.0.15-win32-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.15/valuescope-iac-0.0.15-win32-x64.vsix) |
-| macOS Apple Silicon (ARM64) | [valuescope-iac-0.0.15-darwin-arm64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.15/valuescope-iac-0.0.15-darwin-arm64.vsix) |
-| macOS Intel (x64) | [valuescope-iac-0.0.15-darwin-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.15/valuescope-iac-0.0.15-darwin-x64.vsix) |
+| Linux x64 | [valuescope-iac-0.0.16-linux-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.16/valuescope-iac-0.0.16-linux-x64.vsix) |
+| Windows x64 | [valuescope-iac-0.0.16-win32-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.16/valuescope-iac-0.0.16-win32-x64.vsix) |
+| macOS Apple Silicon (ARM64) | [valuescope-iac-0.0.16-darwin-arm64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.16/valuescope-iac-0.0.16-darwin-arm64.vsix) |
+| macOS Intel (x64) | [valuescope-iac-0.0.16-darwin-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.16/valuescope-iac-0.0.16-darwin-x64.vsix) |
 
-[Sumy SHA-256](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.15/SHA256SUMS.txt).
+[Sumy SHA-256](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.16/SHA256SUMS.txt).
 
 VS Code dobiera wariant Marketplace do systemu i architektury. macOS wymaga wersji 13 lub nowszej.
 
-Wszystkie cztery paczki zawierają poprawkę podglądu deklaracji zmiennych. Wersja 0.0.15 przeszła testy integracyjne VS Code na Linuksie. Paczki Windows i macOS skompilowano na innym systemie i sprawdzono ich zawartość; tego wydania nie uruchamiano na tych platformach.
+Wszystkie cztery paczki zawierają poprawkę podglądu deklaracji zmiennych. Wersja 0.0.16 przeszła testy integracyjne VS Code na Linuksie. Paczki Windows i macOS skompilowano na innym systemie i sprawdzono ich zawartość; tego wydania nie uruchamiano na tych platformach.
 
 **Linux:** wyczerpany limit `inotify` może sprawić, że podgląd nadal pokaże stare wartości po zmianie pliku na dysku. Jeśli limit wynosi 128, na stanowisku z wieloma uruchomionymi aplikacjami warto rozważyć zwiększenie go do 1024. Wyjaśnienie i polecenia znajdziesz w sekcji [Linux: inotify](#linux-inotify).
-
-## Filmy pokazujące działanie
-
-Oba filmy prowadzą od najprostszych przykładów do bardziej złożonych konfiguracji Terraform: od zmiennych i locals, przez funkcje na kolekcjach i instancje zasobów, do outputów modułu. Kółka wskazują kliknięcia, a ramka wyróżnia wynik. Każde nagranie trwa około siedmiu minut, ma podpisy i nie zawiera lektora.
-
-### English
-
-https://github.com/user-attachments/assets/053890a4-5486-4252-838f-b23e8b3d6fce
-
-### Polski
-
-https://github.com/user-attachments/assets/b6d40e2f-8e48-423e-b10a-d1ca584078c4
-
-[Obejrzyj po angielsku](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/demo-video.en.md) · [Opis filmu po polsku](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/demo-video.pl.md)
-
-[Pobierz oryginalny MP4 po polsku](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/demo-pl-1080p.mp4) · [Pobierz oryginalny MP4 po angielsku](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/demo-en-1080p.mp4)
-
-Nagrania pokazują wersję 0.0.11 pod poprzednią nazwą Live Values & Results for Terraform. To wydanie ma numer 0.0.15.
 
 ## Przykład
 
