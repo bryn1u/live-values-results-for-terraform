@@ -2,6 +2,13 @@
 
 [User guide](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/README.md) · [Polski](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/CHANGELOG.pl.md)
 
+## 0.0.15 — 24 September 2026
+
+- Embedded the English and Polish walkthroughs directly in the extension description, with playback controls and preview images.
+- Included the new Terraform Live Values & Results name and icon. Existing Marketplace installations update under the same `bryn1u.valuescope-iac` ID.
+
+The videos progress from simple examples to more complex configurations and show version 0.0.11 under the previous name. Calculation behavior is unchanged from 0.0.13.
+
 ## 0.0.14 — 24 September 2026
 
 - Renamed the extension to **Terraform Live Values & Results** and added a new icon.

@@ -2,6 +2,13 @@
 
 [Instrukcja](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/README.pl.md) · [English](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/CHANGELOG.md)
 
+## 0.0.15 — 24 września 2026
+
+- Dodano odtwarzacze filmów po angielsku i po polsku bezpośrednio do opisu rozszerzenia, z przyciskami odtwarzania i miniaturami.
+- Dołączono nową nazwę Terraform Live Values & Results oraz ikonę. Instalacje Marketplace są aktualizowane pod tym samym ID `bryn1u.valuescope-iac`.
+
+Filmy prowadzą od prostych przykładów do bardziej złożonych konfiguracji i pokazują wersję 0.0.11 pod poprzednią nazwą. Sposób obliczania wyników pozostaje taki jak w 0.0.13.
+
 ## 0.0.14 — 24 września 2026
 
 - Zmieniono nazwę na **Terraform Live Values & Results** i dodano ikonę rozszerzenia.
