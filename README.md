@@ -6,9 +6,11 @@ See the values your Terraform code produces while you edit it. Select an express
 
 The preview covers variables, locals, function calls, collection transformations, local-module outputs and configured resource arguments. It uses your code and selected inputs. You can check a `for` filter, follow a value through modules or inspect arguments for a `for_each` instance without adding a debug output or running a plan.
 
-Current release: **0.0.12**. The extension ID is `valuescope.valuescope-iac`; settings use the `valuescope.*` prefix.
+Current release: **0.0.13**. The extension ID is `bryn1u.valuescope-iac`; settings use the `valuescope.*` prefix.
 
 Author: **Michal 'bryn1u' Bryniarski** · [michal.bryniarski@gmail.com](mailto:michal.bryniarski@gmail.com).
+
+If you have the older local extension `valuescope.valuescope-iac`, disable or uninstall it before using the Marketplace release. The new identifier creates a separate installation. The `valuescope.*` settings remain compatible, but selections and secrets stored by the previous extension do not migrate automatically.
 
 ## Start with a value
 
@@ -23,14 +25,14 @@ The package includes the calculation engine. Using it requires VS Code 1.90 or l
 
 | System / VS Code architecture | Package |
 |---|---|
-| Linux x64 | [valuescope-iac-0.0.12-linux-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.12/valuescope-iac-0.0.12-linux-x64.vsix) |
-| Windows x64 | [valuescope-iac-0.0.12-win32-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.12/valuescope-iac-0.0.12-win32-x64.vsix) |
-| macOS Apple Silicon (ARM64) | [valuescope-iac-0.0.12-darwin-arm64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.12/valuescope-iac-0.0.12-darwin-arm64.vsix) |
-| macOS Intel (x64) | [valuescope-iac-0.0.12-darwin-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.12/valuescope-iac-0.0.12-darwin-x64.vsix) |
+| Linux x64 | [valuescope-iac-0.0.13-linux-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.13/valuescope-iac-0.0.13-linux-x64.vsix) |
+| Windows x64 | [valuescope-iac-0.0.13-win32-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.13/valuescope-iac-0.0.13-win32-x64.vsix) |
+| macOS Apple Silicon (ARM64) | [valuescope-iac-0.0.13-darwin-arm64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.13/valuescope-iac-0.0.13-darwin-arm64.vsix) |
+| macOS Intel (x64) | [valuescope-iac-0.0.13-darwin-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.13/valuescope-iac-0.0.13-darwin-x64.vsix) |
 
-[SHA-256 checksums](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.12/SHA256SUMS.txt) are available for all four packages. macOS requires version 13 or later.
+[SHA-256 checksums](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.13/SHA256SUMS.txt) are available for all four packages. macOS requires version 13 or later.
 
-All four packages include the variable declaration preview fix. Version 0.0.12 passed VS Code integration tests on Linux. Windows and macOS packages are cross-compiled with archive checks; this release has not been run on those systems.
+All four packages include the variable declaration preview fix. Version 0.0.13 passed VS Code integration tests on Linux. Windows and macOS packages are cross-compiled with archive checks; this release has not been run on those systems.
 
 **Linux:** an exhausted `inotify` limit can leave previews showing old values after files change on disk. If your limit is 128, consider increasing it to 1024 on a busy development machine. See [Linux: inotify](#linux-inotify) for the explanation and commands.
 
@@ -44,7 +46,7 @@ https://github.com/user-attachments/assets/053890a4-5486-4252-838f-b23e8b3d6fce
 
 [Download the original English MP4](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/demo-en-1080p.mp4) · [Download the original Polish MP4](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/demo-pl-1080p.mp4)
 
-The recordings show version 0.0.11. The packages above contain version 0.0.12.
+The recordings show version 0.0.11. The packages above contain version 0.0.13.
 
 ## An example
 

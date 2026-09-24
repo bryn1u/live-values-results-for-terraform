@@ -2,6 +2,14 @@
 
 [Instrukcja](README.pl.md) · [English](CHANGELOG.md)
 
+## 0.0.13 — 24 września 2026
+
+- Wydanie dla Marketplace pod identyfikatorem `bryn1u.valuescope-iac`. Nazwa wtyczki i ustawienia `valuescope.*` pozostają bez zmian.
+- Dodano publiczne adresy dokumentacji i zgłoszeń oraz odnośniki do filmów PL/EN.
+- Przebudowano paczki dla Linux x64, Windows x64, macOS ARM64 i macOS x64.
+
+Starszą lokalną instalację `valuescope.valuescope-iac` należy wyłączyć lub odinstalować, aby uniknąć dwóch aktywnych kopii.
+
 ## 0.0.12 — 24 września 2026
 
 To pierwsze publiczne wydanie w tym repozytorium.

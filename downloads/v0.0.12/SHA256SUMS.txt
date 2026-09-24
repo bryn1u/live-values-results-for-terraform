@@ -1,4 +1,0 @@
-cd4fbff2e747e60ebc27c12a6df8bee2d5902b71a165fee7fa9f47d537e731d2  valuescope-iac-0.0.12-linux-x64.vsix
-b783132d1b08e0c491929ce01cb2e43e2ff7a093e82f7f3b5674dd06233747f2  valuescope-iac-0.0.12-win32-x64.vsix
-c86d5d04ccf5f99e4d682ca5ebfcea15173eb07487c7e4a6737511982ab015c3  valuescope-iac-0.0.12-darwin-arm64.vsix
-073098fc2e2a3ec31a23c124d8addfd409351356d3de20616c5e78a7d559a508  valuescope-iac-0.0.12-darwin-x64.vsix

@@ -2,6 +2,14 @@
 
 [User guide](README.md) · [Polski](CHANGELOG.pl.md)
 
+## 0.0.13 — 24 September 2026
+
+- Prepared the Marketplace release under `bryn1u.valuescope-iac`. The display name and `valuescope.*` settings are unchanged.
+- Added public documentation and issue links, with links to the English and Polish walkthroughs.
+- Rebuilt packages for Linux x64, Windows x64, macOS ARM64 and macOS x64.
+
+Disable or uninstall the older local extension `valuescope.valuescope-iac` to avoid running two copies.
+
 ## 0.0.12 — 24 September 2026
 
 This is the first public release in this repository.

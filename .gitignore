@@ -4,7 +4,7 @@
 !/downloads/
 !/media/
 !/third-party/
-!/downloads/v0.0.12/
+!/downloads/v0.0.13/
 !/.gitignore
 !/README.md
 !/README.pl.md
@@ -21,8 +21,8 @@
 !/media/demo-pl-1080p.mp4
 !/media/thumbnail-en.png
 !/media/thumbnail-pl.png
-!/downloads/v0.0.12/valuescope-iac-0.0.12-linux-x64.vsix
-!/downloads/v0.0.12/valuescope-iac-0.0.12-win32-x64.vsix
-!/downloads/v0.0.12/valuescope-iac-0.0.12-darwin-arm64.vsix
-!/downloads/v0.0.12/valuescope-iac-0.0.12-darwin-x64.vsix
-!/downloads/v0.0.12/SHA256SUMS.txt
+!/downloads/v0.0.13/valuescope-iac-0.0.13-linux-x64.vsix
+!/downloads/v0.0.13/valuescope-iac-0.0.13-win32-x64.vsix
+!/downloads/v0.0.13/valuescope-iac-0.0.13-darwin-arm64.vsix
+!/downloads/v0.0.13/valuescope-iac-0.0.13-darwin-x64.vsix
+!/downloads/v0.0.13/SHA256SUMS.txt
