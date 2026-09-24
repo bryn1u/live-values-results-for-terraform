@@ -1,4 +1,4 @@
-Live Values & Results for Terraform — third-party notices
+Terraform Live Values & Results — third-party notices
 
 Original application: see LICENSE.txt (proprietary, from version 0.0.12).
 Third-party components retain their own licenses below.

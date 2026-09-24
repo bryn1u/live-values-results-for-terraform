@@ -1,4 +1,4 @@
-# Live Values & Results for Terraform — VS Code walkthrough
+# Terraform Live Values & Results — VS Code walkthrough
 
 ## Walkthrough
 

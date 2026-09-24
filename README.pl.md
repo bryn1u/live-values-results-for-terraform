@@ -1,12 +1,16 @@
-# Live Values & Results for Terraform
+# Terraform Live Values & Results
 
-[English](README.md) · [Historia wersji](CHANGELOG.pl.md)
+<img src="https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/icon.png" alt="Terraform Live Values &amp; Results" width="96" height="96">
+
+[English](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/README.md) · [Historia wersji](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/CHANGELOG.pl.md)
 
 Sprawdź, jakie wartości daje Twój kod Terraform, bezpośrednio podczas pisania. Zaznacz wyrażenie albo ustaw w nim kursor, żeby zobaczyć wynik w VS Code. Podgląd uwzględnia również niezapisane zmiany.
 
 Możesz sprawdzać zmienne, locals, wywołania funkcji, przekształcenia kolekcji, outputy lokalnych modułów i argumenty zasobów. Wtyczka oblicza je na podstawie kodu oraz wybranych danych wejściowych. Pozwala sprawdzić filtr `for`, prześledzić wartość przez moduły albo obejrzeć argumenty instancji `for_each` bez dopisywania pomocniczego outputu i uruchamiania planu.
 
-Bieżąca wersja: **0.0.13**. Identyfikator rozszerzenia to `bryn1u.valuescope-iac`, a ustawienia mają prefiks `valuescope.*`.
+Bieżąca wersja: **0.0.14**. Identyfikator rozszerzenia to `bryn1u.valuescope-iac`, a ustawienia mają prefiks `valuescope.*`.
+
+Wcześniejsza nazwa to **Live Values & Results for Terraform**. Wersja 0.0.14 zmienia nazwę i ikonę; identyfikator rozszerzenia, ustawienia i zapisane wybory pozostają takie same.
 
 Autor: **Michal 'bryn1u' Bryniarski** · [michal.bryniarski@gmail.com](mailto:michal.bryniarski@gmail.com).
 
@@ -14,7 +18,7 @@ Jeśli masz starszą lokalną wersję `valuescope.valuescope-iac`, wyłącz ją 
 
 ## Pierwszy podgląd
 
-1. W VS Code uruchom **Extensions: Install from VSIX…** i wybierz paczkę dla swojego systemu z tabeli poniżej. Po aktualizacji przeładuj okno.
+1. Zainstaluj [Terraform Live Values & Results](https://marketplace.visualstudio.com/items?itemName=bryn1u.valuescope-iac) od wydawcy **bryn1u** w panelu rozszerzeń VS Code. Lokalną paczkę możesz zainstalować przez **Extensions: Install from VSIX…**.
 2. Otwórz folder z konfiguracją Terraform.
 3. Jeśli dane wejściowe znajdują się np. w `environment/prod.tfvars`, wybierz ten plik przyciskiem **Plik .tfvars** w panelu wyników.
 4. Ustaw kursor w wyrażeniu i naciśnij **Ctrl+Alt+V** (**Cmd+Alt+V** na macOS). Możesz też zaznaczyć wyrażenie, najechać na nie myszą albo kliknąć **Podgląd** nad obsługiwanym blokiem.
@@ -25,14 +29,16 @@ Paczka zawiera silnik obliczeń. Do używania wtyczki wystarczy VS Code 1.90 lub
 
 | System / architektura VS Code | Paczka |
 |---|---|
-| Linux x64 | [valuescope-iac-0.0.13-linux-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.13/valuescope-iac-0.0.13-linux-x64.vsix) |
-| Windows x64 | [valuescope-iac-0.0.13-win32-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.13/valuescope-iac-0.0.13-win32-x64.vsix) |
-| macOS Apple Silicon (ARM64) | [valuescope-iac-0.0.13-darwin-arm64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.13/valuescope-iac-0.0.13-darwin-arm64.vsix) |
-| macOS Intel (x64) | [valuescope-iac-0.0.13-darwin-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.13/valuescope-iac-0.0.13-darwin-x64.vsix) |
+| Linux x64 | [valuescope-iac-0.0.14-linux-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.14/valuescope-iac-0.0.14-linux-x64.vsix) |
+| Windows x64 | [valuescope-iac-0.0.14-win32-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.14/valuescope-iac-0.0.14-win32-x64.vsix) |
+| macOS Apple Silicon (ARM64) | [valuescope-iac-0.0.14-darwin-arm64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.14/valuescope-iac-0.0.14-darwin-arm64.vsix) |
+| macOS Intel (x64) | [valuescope-iac-0.0.14-darwin-x64.vsix](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.14/valuescope-iac-0.0.14-darwin-x64.vsix) |
 
-Dla wszystkich czterech paczek dostępne są [sumy SHA-256](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.13/SHA256SUMS.txt). Wersja dla macOS wymaga systemu 13 lub nowszego.
+[Sumy SHA-256](https://github.com/bryn1u/live-values-results-for-terraform/releases/download/v0.0.14/SHA256SUMS.txt).
 
-Wszystkie cztery paczki zawierają poprawkę podglądu deklaracji zmiennych. Wersja 0.0.13 przeszła testy integracyjne VS Code na Linuksie. Paczki Windows i macOS skompilowano na innym systemie i sprawdzono ich zawartość; tego wydania nie uruchamiano na tych platformach.
+VS Code dobiera wariant Marketplace do systemu i architektury. macOS wymaga wersji 13 lub nowszej.
+
+Wszystkie cztery paczki zawierają poprawkę podglądu deklaracji zmiennych. Wersja 0.0.14 przeszła testy integracyjne VS Code na Linuksie. Paczki Windows i macOS skompilowano na innym systemie i sprawdzono ich zawartość; tego wydania nie uruchamiano na tych platformach.
 
 **Linux:** wyczerpany limit `inotify` może sprawić, że podgląd nadal pokaże stare wartości po zmianie pliku na dysku. Jeśli limit wynosi 128, na stanowisku z wieloma uruchomionymi aplikacjami warto rozważyć zwiększenie go do 1024. Wyjaśnienie i polecenia znajdziesz w sekcji [Linux: inotify](#linux-inotify).
 
@@ -46,7 +52,7 @@ https://github.com/user-attachments/assets/b6d40e2f-8e48-423e-b10a-d1ca584078c4
 
 [Pobierz oryginalny MP4 po polsku](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/demo-pl-1080p.mp4) · [Pobierz oryginalny MP4 po angielsku](https://github.com/bryn1u/live-values-results-for-terraform/raw/refs/heads/main/media/demo-en-1080p.mp4)
 
-Nagrania pokazują wersję 0.0.11. Paczki wymienione wyżej zawierają wersję 0.0.13.
+Nagrania pokazują wersję 0.0.11 pod poprzednią nazwą Live Values & Results for Terraform. To wydanie ma numer 0.0.14.
 
 ## Przykład
 
@@ -256,10 +262,10 @@ Silnik nie jest ograniczony do nazw zasobów Azure: pracuje na wartościach HCL 
 | Nagłówek różni się od wyrażenia | Sprawdź etykietę configuration-only: to dwa różne rodzaje wyniku |
 | Wynik ucięty | Podejrzyj mniejsze wyrażenie; niewidoczne elementy mogą nadal istnieć |
 | Odmowa odczytu pliku | Sprawdź trust/ścieżkę; jawnie wybierz zewnętrzny tfvars, nie cały katalog |
-| Brak kolorów lub completion | Zachowaj companion Terraform; Live Values & Results for Terraform nie jest rozszerzeniem językowym |
+| Brak kolorów lub completion | Zachowaj companion Terraform; Terraform Live Values & Results nie jest rozszerzeniem językowym |
 | Nieaktualny wynik/zatrzymany silnik | Odśwież, sprawdź bezpieczne kody logów, ewentualnie zrestartuj silnik |
 | Linux: zmiana na dysku nie odświeża podglądu lub log obserwatora zawiera `EMFILE` | Sprawdź [limity inotify](#linux-inotify); VS Code może nie móc uruchomić obserwatora plików |
-| Inny język panelu i tytułu komendy | Lokalny wybór steruje UI Live Values & Results for Terraform; statyczne tytuły podążają za VS Code |
+| Inny język panelu i tytułu komendy | Lokalny wybór steruje UI Terraform Live Values & Results; statyczne tytuły podążają za VS Code |
 
 ## Linux: inotify
 
@@ -310,8 +316,8 @@ Po zmianie limitu uruchom ponownie VS Code i sprawdź podgląd po zmianie zależ
 
 ## Licencje
 
-Od wersji 0.0.12 własne części aplikacji są udostępniane na [licencji własnościowej](LICENSE.txt). Oficjalnych wydań możesz używać bez opłat prywatnie i w pracy komercyjnej. Modyfikacja i redystrybucja własnych części aplikacji podlegają ograniczeniom opisanym w licencji.
+Od wersji 0.0.12 własne części aplikacji są udostępniane na [licencji własnościowej](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/LICENSE.txt). Oficjalnych wydań możesz używać bez opłat prywatnie i w pracy komercyjnej. Modyfikacja i redystrybucja własnych części aplikacji podlegają ograniczeniom opisanym w licencji.
 
-Biblioteki zachowują swoje licencje: [informacje o zależnościach](THIRD_PARTY_NOTICES.txt) i [dostęp do źródeł](SOURCE_AVAILABILITY.txt). Paczka zawiera archiwum niezmienionych źródeł HCL wymagane dla części MPL-2.0. Źródła samej aplikacji pozostają prywatne.
+Biblioteki zachowują swoje licencje: [informacje o zależnościach](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/THIRD_PARTY_NOTICES.txt) i [dostęp do źródeł](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/SOURCE_AVAILABILITY.txt). Paczka zawiera archiwum niezmienionych źródeł HCL wymagane dla części MPL-2.0. Źródła samej aplikacji pozostają prywatne.
 
-Live Values & Results for Terraform nie jest powiązany z HashiCorp, zatwierdzony ani sponsorowany przez tę firmę. Terraform jest znakiem towarowym HashiCorp. Opis zgodności wskazuje język konfiguracji, nie oficjalne powiązanie.
+Terraform Live Values & Results nie jest powiązany z HashiCorp, zatwierdzony ani sponsorowany przez tę firmę. Terraform jest znakiem towarowym HashiCorp. Opis zgodności wskazuje język konfiguracji, nie oficjalne powiązanie.

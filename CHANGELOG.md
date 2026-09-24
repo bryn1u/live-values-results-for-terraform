@@ -1,6 +1,14 @@
 # Release notes
 
-[User guide](README.md) · [Polski](CHANGELOG.pl.md)
+[User guide](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/README.md) · [Polski](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/CHANGELOG.pl.md)
+
+## 0.0.14 — 24 September 2026
+
+- Renamed the extension to **Terraform Live Values & Results** and added a new icon.
+- Updated the name in the results panel, commands and English/Polish documentation.
+- Kept `bryn1u.valuescope-iac`, settings and saved selections unchanged. Existing Marketplace installations update in place.
+
+Calculation behavior is unchanged from 0.0.13.
 
 ## 0.0.13 — 24 September 2026
 
@@ -19,6 +27,6 @@ This is the first public release in this repository.
 - Use the English or Polish interface and choose inputs through tfvars files or profiles.
 - Install a package for Linux x64, Windows x64, macOS Apple Silicon or macOS Intel. Each includes the calculation engine.
 
-The application is free to use for personal and commercial work under the [product license](LICENSE.txt). Third-party components retain their own licenses; each package includes the notices and the unmodified HCL source archive.
+The application is free to use for personal and commercial work under the [product license](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/LICENSE.txt). Third-party components retain their own licenses; each package includes the notices and the unmodified HCL source archive.
 
 VS Code integration tests passed on Linux. Windows and macOS packages were cross-compiled and their archives checked; this release has not been run on those systems.

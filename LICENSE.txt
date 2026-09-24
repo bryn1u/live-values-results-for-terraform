@@ -1,12 +1,12 @@
-Live Values & Results for Terraform — Product License
+Terraform Live Values & Results — Product License
 SPDX-License-Identifier: LicenseRef-Live-Values-Results-Proprietary
 Version 1, 24 September 2026
 Copyright (c) 2026 Michal 'bryn1u' Bryniarski. All rights reserved.
 
 1. Scope
 This license covers the original application code and accompanying materials
-of Live Values & Results for Terraform, beginning with version 0.0.12. It does
-not replace the separate licenses of third-party components, or change rights
+of Terraform Live Values & Results (previously Live Values & Results for Terraform),
+beginning with version 0.0.12. It does not replace the separate licenses of third-party components, or change rights
 already granted for copies of earlier releases under their original licenses.
 
 2. Permission to use

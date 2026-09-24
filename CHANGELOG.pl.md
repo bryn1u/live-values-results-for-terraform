@@ -1,6 +1,14 @@
 # Informacje o wydaniu
 
-[Instrukcja](README.pl.md) · [English](CHANGELOG.md)
+[Instrukcja](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/README.pl.md) · [English](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/CHANGELOG.md)
+
+## 0.0.14 — 24 września 2026
+
+- Zmieniono nazwę na **Terraform Live Values & Results** i dodano ikonę rozszerzenia.
+- Zaktualizowano nazwę w panelu wyników, poleceniach i dokumentacji PL/EN.
+- Zachowano identyfikator `bryn1u.valuescope-iac`, ustawienia i zapisane wybory. Instalacje z Marketplace otrzymują zwykłą aktualizację.
+
+Sposób obliczania wyników pozostaje taki jak w 0.0.13.
 
 ## 0.0.13 — 24 września 2026
 
@@ -19,6 +27,6 @@ To pierwsze publiczne wydanie w tym repozytorium.
 - Interfejs po polsku i angielsku oraz wybór danych wejściowych przez pliki tfvars lub profile.
 - Paczki dla Linux x64, Windows x64 oraz macOS z procesorem Apple Silicon lub Intel. Każda zawiera silnik obliczeń.
 
-Z aplikacji można korzystać bez opłat prywatnie i komercyjnie na zasadach [licencji produktu](LICENSE.txt). Biblioteki zachowują własne licencje; każda paczka zawiera wymagane informacje i archiwum niezmienionych źródeł HCL.
+Z aplikacji można korzystać bez opłat prywatnie i komercyjnie na zasadach [licencji produktu](https://github.com/bryn1u/live-values-results-for-terraform/blob/main/LICENSE.txt). Biblioteki zachowują własne licencje; każda paczka zawiera wymagane informacje i archiwum niezmienionych źródeł HCL.
 
 Testy integracyjne VS Code przeszły na Linuksie. Paczki Windows i macOS skompilowano na innym systemie i sprawdzono ich zawartość; tego wydania nie uruchamiano na tych platformach.

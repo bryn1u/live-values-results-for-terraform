@@ -1,4 +1,4 @@
-Live Values & Results for Terraform — third-party source availability
+Terraform Live Values & Results — third-party source availability
 
 The engine includes unmodified HashiCorp HCL v2.24.0 under MPL-2.0.
 Its complete Go module source archive is included in this VSIX at:

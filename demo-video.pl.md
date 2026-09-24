@@ -1,4 +1,4 @@
-# Live Values & Results for Terraform — pokaz działania w VS Code
+# Terraform Live Values & Results — pokaz działania w VS Code
 
 ## Przebieg pokazu
 
